@@ -20,3 +20,7 @@ const maxNum = document.querySelector(".max-num");
 const guessBtn = document.querySelector("#guess-btn");
 const guessInput = document.querySelector("#guess-input");
 const message = document.querySelector(".message");
+
+// Assign UI min and max
+minNum.textContent = min;
+maxNum.textContent = max;
