@@ -66,8 +66,11 @@ guessBtn.addEventListener("click", function () {
       // Change border color to red
       guessInput.style.borderColor = "red";
 
+      // Clear Input
+      guessInput.value = "";
+
       // Tell user it is the wrong number
-      setMessage(`${guess} is not correct, ${guessesLeft} guesses left`);
+      setMessage(`${guess} is not correct, ${guessesLeft} guesses left`, "red");
     }
   }
 });
